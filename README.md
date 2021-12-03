@@ -1,5 +1,6 @@
 # CMU 24677-Modern-Control-Theory-and-Design
 This repository stores my work in 24677 Modern Control Theory and Design course for fall 2021. There are total 5 projects in this courses. Python is used as programming language and Webot simulator is the simulation environment. I controlled a Tesla Model 3 to achieve self-driving feature by applying different control theory (P1-4) and a DJI unmanned aerial vehicle in P5. <br />
+
 P1: PID Control: Designed a PID longitudinal controller and lateral controller for the vehicle. <br />
 P2: Pole Placement: Designed a state feedback lateral controller by using the Pole Placement method. <br />
 P3: LQR-A* Path Planning Algorithm: Implemented Linear Quadratic Regulator(LQR) to control the Tesla Model, at the same time, designed an A-star path planning algorithm to perform the obstacle overtaking and re-plan the trajectory. <br />
