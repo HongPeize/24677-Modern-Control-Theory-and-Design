@@ -5,4 +5,5 @@ P2: Pole Placement: Designed a state feedback lateral controller by using the Po
 P3: LQR-A* Path Planning Algorithm: Implemented Linear Quadratic Regulator(LQR) to control the Tesla Model, at the same time, designed an A-star path planning algorithm to perform the obstacle overtaking and re-plan the trajectory.
 P4: EKF SLAM: Design an Extended Kalman Filter(EKF) to estimate the global state of the vehicle, including coordinate [X, Y] and heading angle [psi] from [x_dot, y_dot], [psi_dot] on the vehicle frame and range and bearing measurements of map features.
 P5: Adaptive Control: Implemented adaptive control theory to augment a LQR-based MPC controller and test its effectiveness in the event of a single quadrotor motor of a DJI UAV experience a 50% loss of thrust during hovering.
-# Some parameters haven't tuned to perfection, eg, Q & R penalty matrix in LQR; Kp, Ki, Kd in PID controller. Anyone who sees my codes are welcomed to improve them.
+
+Note: Some parameters haven't been tuned to perfection, eg, Q & R penalty matrix in LQR; Kp, Ki, Kd in PID controller. Anyone who sees my codes are welcomed to improve them.
